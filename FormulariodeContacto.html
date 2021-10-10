@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="StyleSheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+  <link rel="javascript" href="javascript.js">
+  
+
+<!-- TITULO DE PESTANA CON FAVICON -->
+
+<head>
+
+  <title>My Donuts</title>
+  <link rel="icon" href="Iconos/icono.png" type="image/gif" sizes="18x18">
+  <script src="javascript.js"></script>
+  
+</head>
+
+<!-- CUERPO DE PAGINA -->
+
+<body>
+
+<!-- ENCABEZADO CON MENU -->
+
+<header>
+
+  <a href="Index.html"><img id="logoh" src="Iconos/donuts1.png"></a><a href="Index.html"><h2>My Donuts</h2></a>
+  
+</header>
+
+  <nav>
+    
+    <a style="text-decoration: none;" href="CatalogoDonuts.html" >Donuts &nbsp;</a> 
+    <a style="text-decoration: none;" href="NuestrosLocales.html" >Locations &nbsp;</a>
+    <a style="text-decoration: none;" href="FormulariodeContacto.html" >Contact us &nbsp;</a>
+        
+  </nav>
+
+<!-- SECTION -->
+
+    <section id="sectioncontacto">
+
+
+    <!-- FORMULARIO DE CONTACTO -->
+
+    <article>
+
+      <form id="form" action="" method="post" enctype="text/plain" >
+
+        <p>Contact us:<br><br>
+
+          <a href="https://web.whatsapp.com/"> <img id="logowhap" src="Iconos/whatsapp.png"></a>
+          
+        </p>
+
+        <p>or fill this contact form:</p>
+
+        <p align="center"> Your Name:<br>
+
+        <input autofocus id="nombre" type="text" name="nombre" size="22" required>
+        <br>
+
+        E-mail:<br>
+
+        <input id= "mail" type="text" name="mail" size="22" required>
+        <br>
+
+        Phone:<br>
+
+        <input id="tel" type="text" name="tel" size="22" required>
+        <br>
+      
+        Subject:<br>
+
+        <input id="subject" type="text" name="motivo" size="22" required>
+        <br>
+
+        Comments:<br>
+
+        <textarea id="comentarios" rows="5" cols="25" name="mensaje" required></textarea>
+        <br>
+
+        <input type="submit" value="Send" onClick="return validacion();">
+       
+        </p>
+
+      </form>
+
+     </article>
+
+  </section>
+
+  <footer>
+    <div id="divfooter1">
+    <img id="logo" src="Iconos/donuts1.png"><p id="footerfont"> My Donuts</p>
+  </div>
+  <div id="divfooter2">
+    <a href="https://instagram.com"><img src="Iconos/instagram.png" style="width:1.3rem;height:1.3rem; margin-top: 0.6rem;margin-bottom: 0.6rem;"></a>
+    <a href="https://twitter.com"><img src="Iconos/twitter.png" style="width:1.3rem;height:1.3rem;margin-bottom: 0.6rem;"></a>
+    <a href="https://Facebook.com"><img src="Iconos/facebook.png" style="width:1.3rem;height:1.3rem;margin-bottom: 0.6rem;"></a><br>
+  </div>
+  </footer>
+
+</body>
+</html>
